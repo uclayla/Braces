@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF2F99821CE4FC7E00AAED72 /* fallsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2F99811CE4FC7E00AAED72 /* fallsCell.swift */; };
+		EF2F99821CE4FC7E00AAED72 /* fallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2F99811CE4FC7E00AAED72 /* fallCell.swift */; };
 		EF2F998B1CE5109A00AAED72 /* Meds.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2F998A1CE5109A00AAED72 /* Meds.swift */; };
+		EF2F998D1CE541DE00AAED72 /* Falls.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2F998C1CE541DE00AAED72 /* Falls.swift */; };
 		EF340E861CE156F300F7B14A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF340E851CE156F300F7B14A /* AppDelegate.swift */; };
-		EF340E881CE156F300F7B14A /* Goals.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF340E871CE156F300F7B14A /* Goals.swift */; };
+		EF340E881CE156F300F7B14A /* Sleep.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF340E871CE156F300F7B14A /* Sleep.swift */; };
 		EF340E8A1CE156F300F7B14A /* Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF340E891CE156F300F7B14A /* Monitor.swift */; };
 		EF340E8D1CE156F300F7B14A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF340E8B1CE156F300F7B14A /* Main.storyboard */; };
 		EF340E8F1CE156F300F7B14A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF340E8E1CE156F300F7B14A /* Assets.xcassets */; };
@@ -40,16 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EF2F99811CE4FC7E00AAED72 /* fallsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fallsCell.swift; sourceTree = "<group>"; };
+		EF2F99811CE4FC7E00AAED72 /* fallCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = fallCell.swift; path = "Braces - Tabbed/fallCell.swift"; sourceTree = "<group>"; };
 		EF2F998A1CE5109A00AAED72 /* Meds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meds.swift; sourceTree = "<group>"; };
+		EF2F998C1CE541DE00AAED72 /* Falls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Falls.swift; path = "Braces - Tabbed/Falls.swift"; sourceTree = "<group>"; };
 		EF340E821CE156F200F7B14A /* Braces - Tabbed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Braces - Tabbed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF340E851CE156F300F7B14A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Braces - Tabbed/AppDelegate.swift"; sourceTree = "<group>"; };
-		EF340E871CE156F300F7B14A /* Goals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goals.swift; sourceTree = "<group>"; };
+		EF340E871CE156F300F7B14A /* Sleep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Sleep.swift; path = "Braces - Tabbed/Sleep.swift"; sourceTree = "<group>"; };
 		EF340E891CE156F300F7B14A /* Monitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monitor.swift; sourceTree = "<group>"; };
 		EF340E8C1CE156F300F7B14A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EF340E8E1CE156F300F7B14A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF340E8E1CE156F300F7B14A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Braces - Tabbed/Assets.xcassets"; sourceTree = "<group>"; };
 		EF340E911CE156F300F7B14A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EF340E931CE156F300F7B14A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF340E931CE156F300F7B14A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Braces - Tabbed/Info.plist"; sourceTree = "<group>"; };
 		EF340E981CE156F300F7B14A /* Braces - TabbedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Braces - TabbedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF340E9C1CE156F300F7B14A /* Braces___TabbedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Braces___TabbedTests.swift"; sourceTree = "<group>"; };
 		EF340E9E1CE156F300F7B14A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,7 +60,7 @@
 		EF340EA91CE156F300F7B14A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF340EB91CE15B5C00F7B14A /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		EF8688881CE39108006CF001 /* medsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = medsCell.swift; path = "Braces - Tabbed/medsCell.swift"; sourceTree = "<group>"; };
-		EFB87BE21CE339EB00F1603F /* sleepCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sleepCell.swift; sourceTree = "<group>"; };
+		EFB87BE21CE339EB00F1603F /* sleepCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = sleepCell.swift; path = "Braces - Tabbed/sleepCell.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +91,8 @@
 		EF2F99831CE5101C00AAED72 /* Meds */ = {
 			isa = PBXGroup;
 			children = (
-				EF8688881CE39108006CF001 /* medsCell.swift */,
 				EF2F998A1CE5109A00AAED72 /* Meds.swift */,
+				EF8688881CE39108006CF001 /* medsCell.swift */,
 			);
 			name = Meds;
 			sourceTree = "<group>";
@@ -98,6 +100,8 @@
 		EF2F99841CE5102300AAED72 /* Sleep */ = {
 			isa = PBXGroup;
 			children = (
+				EF340E871CE156F300F7B14A /* Sleep.swift */,
+				EFB87BE21CE339EB00F1603F /* sleepCell.swift */,
 			);
 			name = Sleep;
 			sourceTree = "<group>";
@@ -105,6 +109,8 @@
 		EF2F99851CE5102800AAED72 /* Falls */ = {
 			isa = PBXGroup;
 			children = (
+				EF2F998C1CE541DE00AAED72 /* Falls.swift */,
+				EF2F99811CE4FC7E00AAED72 /* fallCell.swift */,
 			);
 			name = Falls;
 			sourceTree = "<group>";
@@ -112,6 +118,8 @@
 		EF340E791CE156F200F7B14A = {
 			isa = PBXGroup;
 			children = (
+				EF340E8B1CE156F300F7B14A /* Main.storyboard */,
+				EF340E8E1CE156F300F7B14A /* Assets.xcassets */,
 				EF2F99851CE5102800AAED72 /* Falls */,
 				EF2F99841CE5102300AAED72 /* Sleep */,
 				EF2F99831CE5101C00AAED72 /* Meds */,
@@ -120,6 +128,8 @@
 				EF340EA61CE156F300F7B14A /* Braces - TabbedUITests */,
 				EF340E831CE156F200F7B14A /* Products */,
 				EF340E851CE156F300F7B14A /* AppDelegate.swift */,
+				EF340E901CE156F300F7B14A /* LaunchScreen.storyboard */,
+				EF340E931CE156F300F7B14A /* Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,15 +146,8 @@
 		EF340E841CE156F300F7B14A /* Braces - Tabbed */ = {
 			isa = PBXGroup;
 			children = (
-				EF340E871CE156F300F7B14A /* Goals.swift */,
-				EF340E891CE156F300F7B14A /* Monitor.swift */,
-				EFB87BE21CE339EB00F1603F /* sleepCell.swift */,
-				EF2F99811CE4FC7E00AAED72 /* fallsCell.swift */,
 				EF340EB91CE15B5C00F7B14A /* Settings.swift */,
-				EF340E8B1CE156F300F7B14A /* Main.storyboard */,
-				EF340E8E1CE156F300F7B14A /* Assets.xcassets */,
-				EF340E901CE156F300F7B14A /* LaunchScreen.storyboard */,
-				EF340E931CE156F300F7B14A /* Info.plist */,
+				EF340E891CE156F300F7B14A /* Monitor.swift */,
 			);
 			path = "Braces - Tabbed";
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				TargetAttributes = {
 					EF340E811CE156F200F7B14A = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = W9V8ZE9WSU;
 					};
 					EF340E971CE156F300F7B14A = {
 						CreatedOnToolsVersion = 7.3;
@@ -302,10 +306,11 @@
 				EF340E8A1CE156F300F7B14A /* Monitor.swift in Sources */,
 				EF8688891CE39108006CF001 /* medsCell.swift in Sources */,
 				EF340E861CE156F300F7B14A /* AppDelegate.swift in Sources */,
-				EF2F99821CE4FC7E00AAED72 /* fallsCell.swift in Sources */,
+				EF2F99821CE4FC7E00AAED72 /* fallCell.swift in Sources */,
 				EF340EBA1CE15B5C00F7B14A /* Settings.swift in Sources */,
 				EF2F998B1CE5109A00AAED72 /* Meds.swift in Sources */,
-				EF340E881CE156F300F7B14A /* Goals.swift in Sources */,
+				EF2F998D1CE541DE00AAED72 /* Falls.swift in Sources */,
+				EF340E881CE156F300F7B14A /* Sleep.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +352,7 @@
 				EF340E8C1CE156F300F7B14A /* Base */,
 			);
 			name = Main.storyboard;
+			path = "Braces - Tabbed";
 			sourceTree = "<group>";
 		};
 		EF340E901CE156F300F7B14A /* LaunchScreen.storyboard */ = {
@@ -355,6 +361,7 @@
 				EF340E911CE156F300F7B14A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = "Braces - Tabbed";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -447,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Braces - Tabbed/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -459,6 +467,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Braces - Tabbed/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

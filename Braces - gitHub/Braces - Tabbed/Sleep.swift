@@ -7,7 +7,7 @@
 //
 import UIKit
 
-class Goals: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class Sleep: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet var tableView: UITableView!
 

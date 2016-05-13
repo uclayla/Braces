@@ -127,7 +127,7 @@
                         <viewControllerLayoutGuide type="bottom" id="bsI-Lf-DK1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2gz-5W-JX2">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MMA-bq-U7P">
@@ -168,7 +168,7 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" semanticContentAttribute="forceLeftToRight" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Auto-generated" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kr7-lx-n1f">
-                                                <rect key="frame" x="82" y="39" width="285" height="29.5"/>
+                                                <rect key="frame" x="82" y="39" width="285" height="30"/>
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -302,7 +302,7 @@
         <!--Sleep Detail View-->
         <scene sceneID="dtS-IW-oPf">
             <objects>
-                <viewController title="Sleep Detail View" id="F2D-3k-Me1" customClass="Goals" customModule="Braces___Tabbed" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Sleep Detail View" id="F2D-3k-Me1" customClass="Sleep" customModule="Braces___Tabbed" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BvK-2c-6TV"/>
                         <viewControllerLayoutGuide type="bottom" id="ZLF-0S-9aQ"/>
@@ -329,11 +329,6 @@
                                     <constraint firstAttribute="height" constant="230" id="n1e-YM-eaB"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sleep Details" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bsj-K3-ogT">
-                                <rect key="frame" x="20" y="332" width="91" height="30"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sleep time:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="htR-78-uxk">
                                 <rect key="frame" x="20" y="390" width="80" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -364,6 +359,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sleep Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YTs-FM-4Dm">
+                                <rect key="frame" x="20" y="345" width="100" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -471,7 +472,7 @@
         <!--Sleep dashboard-->
         <scene sceneID="sRA-iM-2lC">
             <objects>
-                <viewController title="Sleep dashboard" id="UVT-us-FFP" customClass="Goals" customModule="Braces___Tabbed" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Sleep dashboard" id="UVT-us-FFP" customClass="Sleep" customModule="Braces___Tabbed" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="65" sectionHeaderHeight="28" sectionFooterHeight="28" id="jnq-HQ-5bN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -585,7 +586,7 @@
                                 <rect key="frame" x="0.0" y="384" width="375" height="65"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ai6-i6-M9U" id="DiN-80-wag">
-                                    <rect key="frame" x="0.0" y="0.0" width="342" height="64.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="65"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sleepDates" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BSt-vE-edH">
@@ -899,7 +900,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="happy face" translatesAutoresizingMaskIntoConstraints="NO" id="bXu-jb-0vW">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="happy face" translatesAutoresizingMaskIntoConstraints="NO" id="bXu-jb-0vW">
                                 <rect key="frame" x="123" y="237" width="129" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="129" id="PRG-ZV-bAr"/>
@@ -1010,13 +1011,13 @@
                                 <color key="backgroundColor" red="1" green="0.90980392160000001" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <gestureRecognizers/>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2016-05-07 at 6.26.31 PM" translatesAutoresizingMaskIntoConstraints="NO" id="OxV-gc-ZTo">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="User1 - Mom" translatesAutoresizingMaskIntoConstraints="NO" id="OxV-gc-ZTo">
                                 <rect key="frame" x="59" y="234" width="109" height="109"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2016-05-07 at 6.36.24 PM" translatesAutoresizingMaskIntoConstraints="NO" id="TiZ-Ml-ztj">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="User4 - Dad" translatesAutoresizingMaskIntoConstraints="NO" id="TiZ-Ml-ztj">
                                 <rect key="frame" x="202" y="377" width="109" height="109"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2016-05-07 at 6.31.39 PM" translatesAutoresizingMaskIntoConstraints="NO" id="sZj-9e-tp3">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="User3 - Uncle Tom" translatesAutoresizingMaskIntoConstraints="NO" id="sZj-9e-tp3">
                                 <rect key="frame" x="59" y="377" width="109" height="109"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Who's taking care of Grandma? " textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mV8-Id-CqE">
@@ -1025,7 +1026,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2016-05-07 at 6.36.51 PM" translatesAutoresizingMaskIntoConstraints="NO" id="09d-6z-nl8">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="User2 - Aunt Jess" translatesAutoresizingMaskIntoConstraints="NO" id="09d-6z-nl8">
                                 <rect key="frame" x="202" y="234" width="109" height="109"/>
                             </imageView>
                         </subviews>
@@ -1156,7 +1157,7 @@
                                 <rect key="frame" x="0.0" y="384" width="375" height="65"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Uyk-az-8Cr" id="5FK-Lv-TtM">
-                                    <rect key="frame" x="0.0" y="0.0" width="342" height="64.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="65"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="medsDate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PIV-y4-n1s">
@@ -1194,10 +1195,10 @@
             </objects>
             <point key="canvasLocation" x="2574.5" y="-477.5"/>
         </scene>
-        <!--Incident dashboard-->
+        <!--Falls dashboard-->
         <scene sceneID="jyc-U2-hfd">
             <objects>
-                <viewController title="Incident dashboard" id="cIp-cE-0xw" customClass="Goals" customModule="Braces___Tabbed" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Falls dashboard" id="cIp-cE-0xw" customClass="Falls" customModule="Braces___Tabbed" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="65" sectionHeaderHeight="28" sectionFooterHeight="28" id="viW-69-vfK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1256,7 +1257,7 @@
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dWt-lW-pCV">
                                     <rect key="frame" x="86" y="0.0" width="94" height="30"/>
                                     <subviews>
-                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Week" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="R13-GS-LTJ">
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Week" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="R13-GS-LTJ">
                                             <rect key="frame" x="23" y="0.0" width="51" height="30"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits"/>
@@ -1339,7 +1340,7 @@
                             </constraints>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="fallsCell" rowHeight="65" id="OeS-1O-P49" customClass="fallsCell" customModule="Braces___Tabbed" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="fallCell" rowHeight="65" id="OeS-1O-P49" customClass="fallCell" customModule="Braces___Tabbed" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="384" width="375" height="65"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OeS-1O-P49" id="zFm-5y-hAK">
@@ -1352,10 +1353,17 @@
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="numFalls" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DwD-yf-T9I">
+                                            <rect key="frame" x="248" y="22" width="68" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="78l-vy-Ogf" kind="show" id="PLK-wd-RKI"/>
+                                    <outlet property="fallDate" destination="3BA-29-Ul9" id="inx-Ba-4FV"/>
+                                    <outlet property="numFalls" destination="DwD-yf-T9I" id="zSU-58-sXL"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -1366,7 +1374,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Incident Dashboard" id="xZ1-h5-CbC"/>
                     <connections>
-                        <outlet property="tableView" destination="viW-69-vfK" id="jON-EZ-8MQ"/>
+                        <outlet property="fallsTableView" destination="viW-69-vfK" id="OfM-Ka-zUO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DPn-JW-epA" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1382,7 +1390,7 @@
                         <viewControllerLayoutGuide type="bottom" id="O9H-5x-tfi"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="IZZ-hL-ecX">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ldb-GW-vjs">
@@ -1419,7 +1427,7 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" semanticContentAttribute="forceLeftToRight" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Auto-generated" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SAt-sd-yGN">
-                                                <rect key="frame" x="83" y="40.5" width="284" height="29.5"/>
+                                                <rect key="frame" x="83" y="41" width="284" height="29"/>
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -1494,12 +1502,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Screen Shot 2016-05-07 at 6.26.31 PM" width="54" height="54"/>
-        <image name="Screen Shot 2016-05-07 at 6.31.39 PM" width="65" height="65"/>
-        <image name="Screen Shot 2016-05-07 at 6.36.24 PM" width="66" height="66"/>
-        <image name="Screen Shot 2016-05-07 at 6.36.51 PM" width="54" height="54"/>
+        <image name="User1 - Mom" width="54" height="54"/>
+        <image name="User2 - Aunt Jess" width="54" height="54"/>
+        <image name="User3 - Uncle Tom" width="66" height="66"/>
+        <image name="User4 - Dad" width="65" height="65"/>
         <image name="body" width="263" height="243"/>
-        <image name="calendar2" width="127" height="110"/>
+        <image name="calendar2" width="255" height="220"/>
         <image name="fake-bar-graph" width="312" height="188"/>
         <image name="fake-graph" width="664" height="323"/>
         <image name="happy face" width="120" height="116"/>

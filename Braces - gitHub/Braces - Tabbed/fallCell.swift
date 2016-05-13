@@ -8,8 +8,10 @@
 
 import UIKit
 
-class fallsCell: UITableViewCell {
+class fallCell: UITableViewCell {
     
-    
+    @IBOutlet weak var fallDate: UILabel!
+   
+    @IBOutlet weak var numFalls: UILabel!
 
 }
